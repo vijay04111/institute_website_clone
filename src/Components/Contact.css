@@ -1,0 +1,28 @@
+.contact-page {
+  padding: 60px 0;
+  background: linear-gradient(to right, #f7f8fa, #eef2f3);
+}
+
+.contact-info-card,
+.contact-form-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info-card h3,
+.contact-form-card h3 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.contact-info-card p {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-form-card button {
+  font-size: 18px;
+  padding: 10px 0;
+}

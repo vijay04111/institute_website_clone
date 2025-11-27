@@ -1,0 +1,59 @@
+.py-container {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.py-header {
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.py-header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.py-section {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.py-section h2 {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.py-section ul, .py-section ol {
+  padding-left: 20px;
+}
+
+.project-section {
+  background-color: #f4f9ff;
+}
+
+.project-card {
+  padding: 18px;
+  margin-bottom: 20px;
+  background: white;
+  border-left: 5px solid #007bff;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateX(8px);
+  box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+
+.project-card.custom {
+  border-left-color: #ff7b00;
+}

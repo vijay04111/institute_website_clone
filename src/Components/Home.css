@@ -1,0 +1,168 @@
+.home {
+  background: #f7f9fc;
+  overflow-x: hidden;
+}
+
+
+.hero-carousel .carousel-img {
+  height: 550px;
+  object-fit: cover;
+  filter: brightness(65%);
+}
+
+.carousel-caption h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.carousel-btn {
+  background: #ff6f61;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+.carousel-btn:hover {
+  background: #ff3b2f;
+}
+
+
+.hero-section {
+  padding: 80px 0;
+}
+
+.hero-title {
+  font-size: 46px;
+  font-weight: 700;
+  color: #222;
+}
+
+.hero-title span {
+  color: #ff5733;
+}
+
+.hero-subtext {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #555;
+}
+
+.hero-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 17px;
+  background: linear-gradient(45deg, #ff5733, #ff8d3c);
+  border: none;
+}
+
+.hero-img {
+  width: 80%;
+}
+
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
+
+
+.stats-section {
+  background: #ffffff;
+  padding: 50px 0;
+}
+
+.stat-number {
+  font-size: 38px;
+  font-weight: 700;
+  color: #ff5733;
+}
+
+.stat-text {
+  font-size: 16px;
+  color: #333;
+}
+
+
+
+.courses-section {
+  padding: 60px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  color: #222;
+}
+
+.course-card {
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+  background: #fff;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.1);
+}
+
+.course-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 22px rgba(0, 0, 0, 0.2);
+}
+
+.course-btn {
+  background: #007bff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 20px;
+}
+
+.course-btn:hover {
+  background: #0056d2;
+}
+
+
+
+.why-section {
+  padding: 70px 0;
+  background: linear-gradient(135deg, #eef4ff, #ffffff);
+}
+
+.why-img {
+  width: 85%;
+}
+
+.why-list {
+  list-style: none;
+  padding: 0;
+}
+
+.why-list li {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.why-btn {
+  margin-top: 15px;
+  background: #28a745;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+}
+
+.why-btn:hover {
+  background: #1f8c38;
+}
+
+
+.footer {
+  background: #111;
+  color: #fff;
+  font-size: 15px;
+}

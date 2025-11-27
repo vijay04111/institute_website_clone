@@ -1,0 +1,70 @@
+.cyber-container {
+  width: 85%;
+  margin: auto;
+  padding: 30px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.cyber-header {
+  text-align: center;
+  background: linear-gradient(135deg, #001f3f, #003566, #00ff88);
+  padding: 45px 25px;
+  border-radius: 14px;
+  color: white;
+  margin-bottom: 35px;
+  box-shadow: 0 8px 22px rgba(0,255,140,0.25);
+}
+
+.cyber-header h1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.cyber-section {
+  background: #f0faff;
+  padding: 22px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  border-left: 5px solid #00ff88;
+  box-shadow: 0 4px 15px rgba(0, 150, 80, 0.2);
+}
+
+.cyber-section h2 {
+  color: #003d74;
+  margin-bottom: 12px;
+}
+
+.cyber-project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+  gap: 18px;
+}
+
+.cyber-project-card {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+  border-left: 4px solid #00ff88;
+  transition: 0.3s;
+}
+
+.cyber-project-card:hover {
+  transform: translateY(-6px);
+  background: #eafff7;
+}
+
+.cyber-project-card h3 {
+  color: #006644;
+  margin-bottom: 8px;
+}
+
+.cyber-section ul li {
+  margin: 8px 0;
+}
+
+.cyber-duration {
+  color: #00aa55;
+  font-weight: bold;
+  margin-top: 10px;
+}

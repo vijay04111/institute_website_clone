@@ -1,0 +1,25 @@
+.batches-page {
+  padding: 60px 0;
+  background: linear-gradient(to right, #dfe9f3, #ffffff);
+}
+
+.batch-card {
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.batch-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.batch-card h3 {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.batch-card p {
+  margin: 5px 0;
+}
