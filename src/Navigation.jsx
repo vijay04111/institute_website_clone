@@ -18,7 +18,7 @@ function Navigation() {
 
   return (
     <div className="container-fluid">
-      <BrowserRouter>
+      <BrowserRouter basename="/">
       
         <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-3">
 
